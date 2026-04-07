@@ -1,5 +1,4 @@
 package sict.edu.mn.lab10.controller;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.authentication.AuthenticationManager;
@@ -15,7 +14,6 @@ import sict.edu.mn.lab10.service.UserService;
 public class AuthController {
 	@Autowired
 	private UserService userService;
-
 	@Autowired
 	private AuthenticationManager authenticationManager;
 

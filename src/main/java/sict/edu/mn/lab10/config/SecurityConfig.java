@@ -14,7 +14,6 @@ import org.springframework.web.cors.CorsConfiguration;
 import sict.edu.mn.lab10.service.UserService;
 import sict.edu.mn.lab10.model.User;
 import java.util.Arrays;
-
 @Configuration
 @EnableWebSecurity
 public class SecurityConfig {
